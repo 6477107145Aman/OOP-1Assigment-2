@@ -11,6 +11,7 @@ public class TemperatureAnalyzingSystem {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int days;
+        // Defining the 
         double[] highTemperatures = new double[365];
         double[] lowTemperatures = new double[365];
         double highestTemperature = -45;
