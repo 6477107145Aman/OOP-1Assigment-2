@@ -33,7 +33,7 @@ class Vaccine {
         this.expiryDate = expiryDate;
         this.specialInstructions = specialInstructions;
     }
-    
+
     public int getvaccineId() {
         return vaccineId;
     }
@@ -128,7 +128,7 @@ public class Covid19VaccineRecord {
 
         // Creating an array of vaccines
         Vaccine[] vaccinesArray = {emptyVaccine, vaccine1, vaccine2};
-        
+
         // Using the array of the vaccines to display the vaccines in a table format
         System.out.println("\nDetails of all Vaccines in a Table Format :");
         for (Vaccine vaccine : vaccinesArray) {
